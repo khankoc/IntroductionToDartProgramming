@@ -1,17 +1,15 @@
-/*Sorular
-1- Adınızı, soyadınızı ve yaşınızı farklı değişkenlerde saklayıp, ekrana
-"Benim adım emre altunbilek, yaşım 34 ve tüm ismimdeki karakter sayısı : 15'tir" yazdırın
-2- Bir üçgenin tüm kenarlarını değişkenlerde saklayıp çevresini ekrana yazdırın
-örnek birinci kenarı 3, ikinci kenarı 4, üçüncü kenarı 5 olan üçgenin çevresi 12dir
+/*Questions
+1- Store your name, surname, and age in different variables and print 
+2- Store all sides of a triangle in variables and print its perimeter. 
+For example, a triangle with first side 3, second side 4, and third side 5 has a perimeter of 12.
 */
-//Cevaplar
 
 void main(List<String> args) {
-  String name = "Kaan";
+  String name = "Khan";
   String surname = "Koc";
-  int yas = 23;
+  int age = 23;
   int charCounter = name.length + surname.length;
-  print("Benim adım $name $surname ve yaşım $yas. İsmimdeki karakter sayısı $charCounter");
+  print("My name is $name $surname and my age is $age. And the number of characters in my whole name is $charCounter");
 
   double firstSide = 3;
   double secondSide = 5;
@@ -19,6 +17,6 @@ void main(List<String> args) {
   
   double perimeter = firstSide+secondSide+thirdSide;
 
-  print("Kenarları $firstSide cm $secondSide cm $thirdSide cm olan üçgenin çevresi : $perimeter cm'dir");
+  print("The perimeter of the triangle with sides $firstSide cm $secondSide cm $thirdSide cm is $perimeter cm.");
 
 }

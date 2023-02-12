@@ -1,19 +1,19 @@
 /*
-String : Metinsel ifadeler için kullanılan veri türüdür.
-çift tırnak veya tek tırnak ile belirilebilir.
-İki stringi birleştirmek için + operatörü kullanılır.
-Birden fazla satır süren metinsel ifadeleri birleştirirken + kullanmasak da olur.
-'ifade 1'
-'ifade 2' olarak kullanilabilir.
-Interpolation : string ifade içinde baska bir string ifadeyi $ifade olarak kullabiliriz.
-Böylece + kullanmak gerekmez.
-Eğer ifade birden fazla alana sahipse ${ifade.method} şeklinde kullanılır.
-Ayrıca interpolation diğer veri türleri için de geçerlidir.
+String: It is a data type used for text expressions.
+It can be specified with double quotes or single quotes.
+The + operator is used to combine two strings.
+When combining text expressions that take up multiple lines, it's not necessary to use the + operator.
+'expression 1'
+'expression 2' can be used.
+Interpolation: We can use another string expression inside a string expression as $expression.
+So there is no need to use the + operator.
+If the expression has multiple parts, it is used as ${expression.method}.
+Also, interpolation is valid for other data types as well.
 */
 
 main (List<String> args) {
 
-  String name = "Kaan";
+  String name = "Khan";
   String surname = "KOC";
   bool isMan = true;
   int age = 56;

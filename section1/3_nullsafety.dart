@@ -1,34 +1,33 @@
-/*num : tamsayı veya ondalıklı bir ifadeyi saklayabilir
-int = tamsayıları saklarken kullanılan veri türüdür
-hexadecimal değerleri de saklayabilir. 0xAABBCC
-double = ondalıklı ifadeler için kullanılan veri türüdür.
-exponents değerli saklayabilir, 1.42e5
-var anahtar kelime ile de tamsayı veya ondalıklı ifade saklanabilir.var olarak int deger
-atandıysa sonrasında double değer atanamaz
-değişkenlerimize ilk değerleri atamak zorundayız, null değer kabul edilmez.
-null değerlerin kabul edilmesini istiyorsak int?, double? bool? gibi farklı değişken tanımları
-yapmamız gerekir.
-boolean = true/false değerleri alır
+/* The "num" data type can store integer or decimal expressions.
+"int" is a data type used to store integers.
+It can also store hexadecimal values. 0xAABBCC.
+"double" is a data type used for decimal expressions.
+It can store exponential values, such as 1.42e5.
+With the "var" keyword, we can also store integer or decimal expressions.
+If a variable is assigned as "var olarak int deger," it cannot later be assigned as a "double" value.
+We must assign initial values to our variables, null values are not accepted.
+If we want to accept null values, we must use different variable definitions such as "int?, double?, bool?" etc.
+"boolean" can only take true/false values.
 */
 
 void main(List<String> args) {
-  int yas = 34;
-  print(yas);
-  yas =yas+50;
-  print(yas);
+int age = 34;
+print(age);
+age = age + 50;
+print(age);
 
-  num yil = 1999;
-  print(yil);
+num year = 1999;
+print(year);
 
-  double sayi = 15; //double olarak belirledik sonuna nokta koydu.
-  print(sayi);
+double number = 15; // defined as double and added a decimal point
+print(number);
 
-  int kilo = 84.6.toInt(); //toInt ile integer'a dönüştürdük.
-  print(kilo);
+int weight = 84.6.toInt(); // converted to integer using toInt
+print(weight);
 
-  int? numara = null; // sadece değişken yanına ? ile null değer atabilirsin !!!
-  print(numara);
+int? number2 = null; // you can assign null values only by adding a "?" after the variable !!!
+print(number2);
 
-  int hexadecimalSayi = 0xAABBCC;
-  print(hexadecimalSayi);
+int hexadecimalNumber = 0xAABBCC;
+print(hexadecimalNumber);
 }

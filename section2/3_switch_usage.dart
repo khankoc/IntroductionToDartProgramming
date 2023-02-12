@@ -1,7 +1,7 @@
 /*
-  - switch: ard arda if-else if kullanmak yerine genellikle switch yapısı tercih edilir
-  - her bir case'den sonra break denilerek switch yapısından cıkılmalıdır.
-  - switch kullanırken sadece int ve string veri türleri kullanılır, boolean veya double kullanılmaz.
+  - Switch: switch structure is usually preferred instead of using consecutive if-else if
+  - After each case, you should exit the switch structure by saying break.
+  - Only int and string data types can be used when using switch, boolean or double cannot be used.
 */
 
 
