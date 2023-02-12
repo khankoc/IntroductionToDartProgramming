@@ -21,14 +21,14 @@ Automatically specifies the type based on the assigned expression.
 */
 
 void main(List<String> args) {
-  String name = "Kaan";
+  String name = "Khan";
   int age = 23;
-  double average = 2.86;
+  double average = 3.40;
   num year = 2000;
   bool isMan = true;
-  var okul = "hacettepe";
-  var okulNumarasi = 219361;
-  print("Adım : " +name+" Yaşım: ");
+  var school = "Hacettepe University";
+  var schoolNumber = 219361;
+  print("My Name: "+name);
 
-  print("Adım : $name, Yaşım : $age");
+  print("My Name : $name, My age : $age");
 }
