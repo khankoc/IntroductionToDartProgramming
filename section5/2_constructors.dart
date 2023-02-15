@@ -23,8 +23,15 @@ class Car {
 
   //CONSTRUCTOR EX: (SHORT WAY):
 
-  Car(int? this.modelYear,String? this.brand,bool? this.isAutomatic){ //this function is triggered in every newly opened car class.
-    print("The constructor method is triggered.");
+  Car(this.modelYear,this.brand,this.isAutomatic){ //this function is triggered in every newly opened car class.
+    print("The constructor method-1 is triggered.");
+  }
+
+  Car.nobrand(this.modelYear,this.isAutomatic) {
+    print("The constructor method-2 is triggered.");
+  } 
+  Car.noModelYear(this.brand,this.isAutomatic) {
+    print("The constructor method-3 is triggered.");
   } 
   
   //or we can use like that (LONG WAY): 
