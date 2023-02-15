@@ -17,6 +17,8 @@ void main(List<String> args) {
 
   Customer firstcustomer = Customer(200);
   firstcustomer.printInfo();
+  print(firstcustomer.sayCustomerNum);
+
 
 
 }
